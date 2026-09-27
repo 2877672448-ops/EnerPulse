@@ -1,6 +1,7 @@
 ﻿# Backend
 backend/target/
 backend/data/
+backend/enerpulse-server-*/
 backend/*.log
 backend/.mvn/
 backend/.mvnw
