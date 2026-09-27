@@ -1,4 +1,4 @@
-# Backend
+﻿# Backend
 backend/target/
 backend/*.log
 backend/.mvn/
@@ -10,6 +10,9 @@ backend/.mvnw
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
+frontend/*.log
+**/dev.log
+**/vite.log
 
 # IDE
 .idea/
