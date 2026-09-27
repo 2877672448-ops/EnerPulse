@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:enerpulse;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
+  flyway:
+    enabled: true
+
+my:
+  mqtt:
+    embedded: true
+    broker-url: tcp://localhost:1883
+
+logging:
+  level:
+    com.enerpulse: DEBUG
+    org.hibernate.SQL: WARN

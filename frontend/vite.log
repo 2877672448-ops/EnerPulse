@@ -1,0 +1,187 @@
+﻿
+> enerpulse-frontend@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m551[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+node.exe : [2m15:55:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/gateways[39m
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([2m15:55:42[2...1/gateways[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m15:55:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/devices[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m15:55:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/points[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m15:55:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/auth/me[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m16:04:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/gateways[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m16:04:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/devices[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m16:04:46[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/points[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m16:10:42[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.ts[22m
+[2m16:10:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue[22m
+[2m16:12:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Dashboard.vue, /src/views/EnergyAnalysis.vue[22m
+[2m16:13:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Dashboard.vue[22m
+[2m16:31:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/UserManagement.vue, /src/views/UserManagement.vue?vue&type=style&index=0&scoped=18622dc2&lang.css[22m
+[2m16:32:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue, /src/views/RoleManagement.vue?vue&type=style&index=0&scoped=0f1f1a5e&lang.css[22m
+[2m16:33:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DictionaryManagement.vue, /src/views/DictionaryManagement.vue?vue&type=style&index=0&scoped=e28eca1e&lang.css[22m
+[2m16:35:53[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/utils/request.ts[22m
+[2m16:35:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Dashboard.vue, /src/views/EnergyAnalysis.vue[22m
+[2m16:37:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m16:40:40[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.ts[22m
+[2m16:40:40[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue, /src/views/Layout.vue?vue&type=style&index=0&scoped=60489549&lang.css[22m
+[2m16:44:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DictionaryManagement.vue[22m
+[2m16:45:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DictionaryManagement.vue[22m
+[2m16:46:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/MenuManagement.vue[22m
+[2m16:58:53[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.ts[22m
+[2m16:58:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue[22m
+[2m17:07:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DeviceManagement.vue, /src/views/DeviceManagement.vue?vue&type=style&index=0&scoped=6a1df970&lang.css[22m
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/gateways[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/points[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/devices[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/areas[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/auth/me[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/devices[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/auth/me[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:49[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/alarms?status=ACTIVE&pageSize=1[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/energy/analysis?objectType=TENANT&objectId=1
+&energyTypeId=1&period=DAY&startDate=2026-09-21&endDate=2026-09-27[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:10:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/v1/energy/ratio?energyTypeId=1&startDate=2026-0
+9-21&endDate=2026-09-27[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m17:13:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue[22m
+[2m17:13:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DeviceManagement.vue[22m
+[2m17:13:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m17:13:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/CloudScada.vue[22m
+[2m17:13:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DeviceManagement.vue[22m
+[2m17:13:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m17:14:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/DeviceManagement.vue[22m
+[2m17:14:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m17:23:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue[22m
+[2m17:23:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/WeChatAlarm.vue[22m
+[2m17:24:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m17:25:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/CloudScada.vue, /src/views/CloudScada.vue?vue&type=style&index=0&scoped=aaa83c68&lang.css[22m
+[2m17:26:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue[22m
+[2m17:28:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue?vue&type=style&index=0&scoped=60489549&lang.css[22m
+[2m17:28:38[22m [31m[1m[vite][22m[39m [31mInternal server error: D:/EnerFlow/frontend/src/views/Layout.vue:9:1: 
+Unexpected }[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mD:/EnerFlow/frontend/src/views/Layout.vue[39m:146:1
+[33m  144|    border-bottom: 1px solid #003a70;
+  145|  }
+  146|  .menu-scroll { flex: 1; }
+     |   ^
+  147|  .header {
+  148|    background: #fff; display: flex; justify-content: space-between; align-items: center;[39m
+      at Input.error (D:\EnerFlow\frontend\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unexpectedClose (D:\EnerFlow\frontend\node_modules\postcss\lib\parser.js:597:22)
+      at Parser.end (D:\EnerFlow\frontend\node_modules\postcss\lib\parser.js:337:12)
+      at Parser.parse (D:\EnerFlow\frontend\node_modules\postcss\lib\parser.js:466:16)
+      at parse (D:\EnerFlow\frontend\node_modules\postcss\lib\parse.js:11:12)
+      at new LazyResult (D:\EnerFlow\frontend\node_modules\postcss\lib\lazy-result.js:171:16)
+      at Processor.process (D:\EnerFlow\frontend\node_modules\postcss\lib\processor.js:53:14)
+      at doCompileStyle (D:\EnerFlow\frontend\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:20125:36)
+      at Object.compileStyleAsync (D:\EnerFlow\frontend\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:20045:1
+0)
+      at transformStyle (file:///D:/EnerFlow/frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2832:41)
+[2m17:28:38[22m [31m[1m[vite][22m[39m [31mInternal server error: D:/EnerFlow/frontend/src/views/Layout.vue:9:1: 
+Unexpected }[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mD:/EnerFlow/frontend/src/views/Layout.vue[39m:146:1
+[33m  144|    border-bottom: 1px solid #003a70;
+  145|  }
+  146|  .menu-scroll { flex: 1; }
+     |   ^
+  147|  .header {
+  148|    background: #fff; display: flex; justify-content: space-between; align-items: center;[39m
+      at Input.error (D:\EnerFlow\frontend\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unexpectedClose (D:\EnerFlow\frontend\node_modules\postcss\lib\parser.js:597:22)
+      at Parser.end (D:\EnerFlow\frontend\node_modules\postcss\lib\parser.js:337:12)
+      at Parser.parse (D:\EnerFlow\frontend\node_modules\postcss\lib\parser.js:466:16)
+      at parse (D:\EnerFlow\frontend\node_modules\postcss\lib\parse.js:11:12)
+      at new LazyResult (D:\EnerFlow\frontend\node_modules\postcss\lib\lazy-result.js:171:16)
+      at Processor.process (D:\EnerFlow\frontend\node_modules\postcss\lib\processor.js:53:14)
+      at doCompileStyle (D:\EnerFlow\frontend\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:20125:36)
+      at Object.compileStyleAsync (D:\EnerFlow\frontend\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:20045:1
+0)
+      at transformStyle (file:///D:/EnerFlow/frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2832:41)
+[2m17:29:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue?vue&type=style&index=0&scoped=60489549&lang.css[22m
+[2m17:30:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue[22m
+[2m17:35:20[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/utils/request.ts[22m
+[2m17:40:26[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Welcome.vue[22m
+[2m17:48:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/WeChatAlarm.vue[22m
+[2m18:53:13[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.ts[22m
+[2m18:53:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Layout.vue, /src/views/Layout.vue?vue&type=style&index=0&scoped=60489549&lang.css[22m
+[2m18:54:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Welcome.vue, /src/views/Welcome.vue?vue&type=style&index=0&scoped=62ab8a5c&lang.css[22m
+[2m18:55:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/Login.vue, /src/views/Login.vue?vue&type=style&index=0&scoped=08aaad4e&lang.css[22m
+[2m19:02:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue[22m
+[2m19:03:10[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue[22m
+[2m19:03:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue[22m
+[2m19:07:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/global.css[22m
+[2m19:10:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/CloudScada.vue[22m
+[2m19:14:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RoleManagement.vue?vue&type=style&index=0&scoped=0f1f1a5e&lang.css, /src/views/RoleManagement.vue[22m
+[2m19:19:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/CloudScada.vue[22m
+[2m19:24:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/UserManagement.vue[22m
+[2m19:24:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/AlarmManagement.vue[22m
+[2m19:24:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OperationLog.vue[22m
+[2m19:24:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/CloudScada.vue[22m
+[2m19:24:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m19:24:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/WeChatAlarm.vue[22m
+[2m19:25:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/UserManagement.vue[22m
+[2m19:25:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/AlarmManagement.vue[22m
+[2m19:25:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OperationLog.vue[22m
+[2m19:25:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m19:26:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/EnergyAnalysis.vue[22m
+[2m19:26:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/OperationLog.vue[22m

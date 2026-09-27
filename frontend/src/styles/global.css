@@ -1,0 +1,213 @@
+/* ===== Design Tokens ===== */
+:root {
+  --ep-primary: #4F7CFF;
+  --ep-primary-dark: #3B5BDB;
+  --ep-primary-light: #6B8FFF;
+  --ep-success: #2DCE89;
+  --ep-warning: #FFB236;
+  --ep-danger: #FF5757;
+  --ep-text: #1A1D29;
+  --ep-text-secondary: #6B7280;
+  --ep-text-light: #9CA3AF;
+  --ep-bg: #F5F7FA;
+  --ep-card-bg: #FFFFFF;
+  --ep-border: #E8ECF1;
+  --ep-border-light: #F0F3F7;
+  --ep-shadow-sm: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --ep-shadow-md: 0 4px 12px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04);
+  --ep-shadow-lg: 0 8px 24px rgba(0,0,0,.10), 0 4px 8px rgba(0,0,0,.06);
+  --ep-radius: 10px;
+  --ep-radius-sm: 6px;
+  --ep-radius-lg: 16px;
+  --ep-sidebar-bg: #14172B;
+  --ep-sidebar-bg-2: #1E2240;
+  --ep-sidebar-active: #4F7CFF;
+  --ep-sidebar-text: #8B92A8;
+  --ep-sidebar-text-active: #FFFFFF;
+  --ep-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #app { height: 100%; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  background: var(--ep-bg);
+  color: var(--ep-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,.15); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,.25); }
+
+/* ===== Buttons - Premium ===== */
+.el-button {
+  border-radius: var(--ep-radius-sm) !important;
+  font-weight: 500 !important;
+  transition: var(--ep-transition) !important;
+  letter-spacing: .01em;
+}
+.el-button--primary {
+  background: linear-gradient(135deg, var(--ep-primary) 0%, var(--ep-primary-dark) 100%) !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(79,124,255,.3) !important;
+}
+.el-button--primary:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(79,124,255,.4) !important; }
+.el-button--primary:active { transform: translateY(0); }
+.el-button--success {
+  background: linear-gradient(135deg, #2DCE89 0%, #1FAE6F 100%) !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(45,206,137,.3) !important;
+}
+.el-button--success:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(45,206,137,.4) !important; }
+.el-button--warning {
+  background: linear-gradient(135deg, #FFB236 0%, #E69500 100%) !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(255,178,54,.3) !important;
+}
+.el-button--warning:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(255,178,54,.4) !important; }
+.el-button--danger {
+  background: linear-gradient(135deg, #FF5757 0%, #E03131 100%) !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(255,87,87,.3) !important;
+}
+.el-button--danger:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(255,87,87,.4) !important; }
+.el-button--default {
+  background: #fff !important;
+  border: 1px solid var(--ep-border) !important;
+  color: var(--ep-text-secondary) !important;
+}
+.el-button--default:hover { border-color: var(--ep-primary) !important; color: var(--ep-primary) !important; background: rgba(79,124,255,.04) !important; }
+.el-button.is-text { background: transparent !important; border: none !important; box-shadow: none !important; }
+.el-button.is-text:hover { background: rgba(79,124,255,.08) !important; color: var(--ep-primary) !important; }
+
+/* ===== Link Buttons in Tables - Always Visible ===== */
+.el-button.is-link {
+  padding: 4px 10px !important;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  opacity: 1 !important;
+}
+.el-button.is-link.el-button--primary {
+  background: rgba(79,124,255,.1) !important;
+  color: #4F7CFF !important;
+}
+.el-button.is-link.el-button--primary:hover {
+  background: rgba(79,124,255,.2) !important;
+  color: #3B5BDB !important;
+}
+.el-button.is-link.el-button--success {
+  background: rgba(45,206,137,.1) !important;
+  color: #1FAE6F !important;
+}
+.el-button.is-link.el-button--success:hover {
+  background: rgba(45,206,137,.2) !important;
+}
+.el-button.is-link.el-button--warning {
+  background: rgba(255,178,54,.1) !important;
+  color: #E69500 !important;
+}
+.el-button.is-link.el-button--warning:hover {
+  background: rgba(255,178,54,.2) !important;
+}
+.el-button.is-link.el-button--danger {
+  background: rgba(255,87,87,.1) !important;
+  color: #E03131 !important;
+}
+.el-button.is-link.el-button--danger:hover {
+  background: rgba(255,87,87,.2) !important;
+}
+.el-button.is-link.el-button--info {
+  background: rgba(107,114,128,.1) !important;
+  color: #4B5563 !important;
+}
+.el-button.is-link.el-button--info:hover {
+  background: rgba(107,114,128,.2) !important;
+}
+
+/* ===== Tables - Premium ===== */
+.el-table {
+  border-radius: var(--ep-radius) !important;
+  overflow: hidden;
+  border: 1px solid var(--ep-border) !important;
+}
+.el-table th.el-table__cell {
+  background: var(--ep-bg) !important;
+  color: var(--ep-text) !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  border-bottom: 2px solid var(--ep-border) !important;
+  padding: 12px 0 !important;
+}
+.el-table td.el-table__cell {
+  color: #374151 !important;
+  border-bottom: 1px solid var(--ep-border-light) !important;
+  color: var(--ep-text) !important;
+  font-size: 14px !important;
+  padding: 11px 0 !important;
+}
+.el-table tbody tr { transition: background 0.2s ease; }
+.el-table tbody tr:hover > td.el-table__cell { background: rgba(79,124,255,.04) !important; }
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell { background: #FAFBFD !important; }
+.el-table .el-table__inner-wrapper::before { display: none !important; }
+
+/* ===== Cards - Premium ===== */
+.el-card {
+  border-radius: var(--ep-radius) !important;
+  border: 1px solid var(--ep-border) !important;
+  box-shadow: var(--ep-shadow-sm) !important;
+  transition: var(--ep-transition) !important;
+}
+.el-card:hover { box-shadow: var(--ep-shadow-md) !important; }
+.el-card__header { border-bottom: 1px solid var(--ep-border-light) !important; padding: 16px 20px !important; font-weight: 600 !important; font-size: 15px !important; color: var(--ep-text) !important; }
+.el-card__body { padding: 20px !important; }
+
+/* ===== Dialogs ===== */
+.el-dialog { border-radius: var(--ep-radius-lg) !important; overflow: hidden; box-shadow: var(--ep-shadow-lg) !important; }
+.el-dialog__header { background: var(--ep-bg) !important; border-bottom: 1px solid var(--ep-border) !important; padding: 18px 24px !important; margin-right: 0 !important; }
+.el-dialog__title { font-weight: 600 !important; font-size: 16px !important; color: var(--ep-text) !important; }
+.el-dialog__body { padding: 24px !important; }
+.el-dialog__footer { padding: 16px 24px 20px !important; border-top: 1px solid var(--ep-border-light) !important; }
+
+/* ===== Form ===== */
+.el-form-item__label { font-weight: 500 !important; color: var(--ep-text) !important; }
+.el-input__wrapper { border-radius: var(--ep-radius-sm) !important; box-shadow: 0 0 0 1px var(--ep-border) !important; transition: var(--ep-transition) !important; }
+.el-input__wrapper:hover { box-shadow: 0 0 0 1px var(--ep-primary-light) !important; }
+.el-input__wrapper.is-focus { box-shadow: 0 0 0 2px var(--ep-primary) !important; }
+.el-select__wrapper { border-radius: var(--ep-radius-sm) !important; }
+
+/* ===== Tabs ===== */
+.el-tabs__item { font-weight: 500 !important; color: var(--ep-text-secondary) !important; font-size: 14px !important; transition: var(--ep-transition) !important; }
+.el-tabs__item.is-active { color: var(--ep-primary) !important; font-weight: 600 !important; }
+.el-tabs__active-bar { background: linear-gradient(135deg, var(--ep-primary), var(--ep-primary-light)) !important; height: 3px !important; border-radius: 3px !important; }
+.el-tabs__nav-wrap::after { background: var(--ep-border) !important; height: 1px !important; }
+
+/* ===== Tags ===== */
+.el-tag { border-radius: 20px !important; border: none !important; font-weight: 500 !important; font-size: 12px !important; padding: 0 12px !important; height: 24px !important; line-height: 22px !important; }
+.el-tag--success { background: rgba(45,206,137,.12) !important; color: #1FAE6F !important; }
+.el-tag--warning { background: rgba(255,178,54,.12) !important; color: #E69500 !important; }
+.el-tag--danger { background: rgba(255,87,87,.12) !important; color: #E03131 !important; }
+.el-tag--info { background: rgba(107,114,128,.12) !important; color: #6B7280 !important; }
+
+/* ===== Pagination ===== */
+.el-pagination { margin-top: 16px; justify-content: flex-end; }
+.el-pagination .btn-prev, .el-pagination .btn-next, .el-pagination .el-pager li { border-radius: var(--ep-radius-sm) !important; border: 1px solid var(--ep-border) !important; background: #fff !important; font-weight: 500 !important; transition: var(--ep-transition) !important; }
+.el-pagination .el-pager li.is-active { background: linear-gradient(135deg, var(--ep-primary), var(--ep-primary-dark)) !important; color: #fff !important; border-color: transparent !important; }
+
+/* ===== Breadcrumb ===== */
+.el-breadcrumb__item .el-breadcrumb__inner { font-weight: 500 !important; color: var(--ep-text-secondary) !important; }
+.el-breadcrumb__item:last-child .el-breadcrumb__inner { color: var(--ep-text) !important; font-weight: 600 !important; }
+
+/* ===== Transitions ===== */
+.fade-enter-active, .fade-leave-active { transition: opacity 0.25s ease, transform 0.25s ease; }
+.fade-enter-from { opacity: 0; transform: translateY(8px); }
+.fade-leave-to { opacity: 0; transform: translateY(-8px); }
+
+/* ===== Utility ===== */
+.ep-stat-card { border-radius: var(--ep-radius); background: var(--ep-card-bg); padding: 20px; border: 1px solid var(--ep-border); box-shadow: var(--ep-shadow-sm); transition: var(--ep-transition); }
+.ep-stat-card:hover { box-shadow: var(--ep-shadow-md); transform: translateY(-2px); }
+.ep-stat-value { font-size: 28px; font-weight: 700; color: var(--ep-text); line-height: 1.2; }
+.ep-stat-label { font-size: 13px; color: var(--ep-text-secondary); margin-top: 4px; }

@@ -1,0 +1,14 @@
+package com.enerpulse.common.api;
+
+public final class ErrorCode {
+    public static final int SUCCESS = 0;
+    public static final int PARAM_ERROR = 40001;
+    public static final int UNAUTHORIZED = 40101;
+    public static final int FORBIDDEN = 40301;
+    public static final int NOT_FOUND = 40401;
+    public static final int CONFLICT = 40901;
+    public static final int BUSINESS_ERROR = 42201;
+    public static final int SYSTEM_ERROR = 50001;
+
+    private ErrorCode() {}
+}
